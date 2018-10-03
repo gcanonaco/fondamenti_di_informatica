@@ -1,4 +1,5 @@
-// Dato un numero n arbistrario stampare a video la sequenza dei primi n numeri primi
+/* Dato un numero n arbitrario stampare a video la sequenza dei primi n numeri primi.
+Si può fare di meglio che andare fino a p_primo/2? sqrt(p_primo)... perchè?*/
 #include <stdio.h>
 
 int main()
