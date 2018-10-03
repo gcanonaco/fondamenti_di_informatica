@@ -1,4 +1,4 @@
-//Prova a eseguire, ad esempio, il fattoriale di 17.
+//Prova a eseguire, ad esempio, il fattoriale di 17. Attenzione nel for anziché andare da 2 ad a-1 sarebbe più intelligente andare fino ad a/2 incluso.
 #include <stdio.h>
 
 int main(){
