@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPS-BoldMT;\f2\froman\fcharset0 TimesNewRomanPSMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\tx0\tx86\pardeftab720\li86\ri-1895\sa60\qj\partightenfactor0
+\ls1\ilvl0
+\f0\fs24 \cf0 	
+\f1\b\fs32 Laboratorio Informatica A\uc0\u8232 Problema 1\
+\pard\pardeftab720\ri-1980\partightenfactor0
+
+\f2\b0\fs20 \cf0 La FPF Inc. (Fictional Pigs Farm) si dedica da sempre all'allevamento di maialini da palcoscenico pi\'f9 o meno famosi, e conserva i dati dei suoi piccoli divi in un vettore (di cui solo una parte \'e8 utilizzata, pari a num_maialini: gli elementi di indice da num_maialini a N-1 non sono usati):\
+\pard\pardeftab720\ri-1980\partightenfactor0
+
+\f1\b \cf0 typedef struct \{ int giorno; int mese; int anno; \} Data;
+\f2\b0 \
+
+\f1\b typedef struct \{ char nome[20]; Data datanascita; float peso; int popolarita; \} Maialino;
+\f2\b0 \
+
+\f1\b typedef struct \{ int num_maialini; Maialino pigs[N]; \} Allevamento;
+\f2\b0 \
+I maialini non sono elencati nell'Allevamento in un alcun ordine particolare, ma la ditta necessita di scandirli in ordine di ognuna delle loro caratteristiche (cio\'e8 in ordine di nome, di data di nascita, di popolarit\'e0, e di peso corporeo), a seconda delle diverse necessit\'e0 applicative (rispettivamente: appello nominale, trattamento pensionistico, merchandising, utilizzo culinario qualora la popolarit\'e0 cali eccessivamente). A tal fine, si utilizzano \ul quattro distinti vettori di puntatori\ulnone , in cui ogni puntatore punta a un maialino specifico. In questo modo si rappresentano quattro diversi ordinamenti indipendenti degli elementi di uno stesso insieme (di maiali) senza dover replicare tutti i dati ad essi relativi, ma replicando solo i puntatori:\
+
+\f1\b Maialino * ord_alfabetico[N], ord_data[N], ord_pop[N], ord_peso[N]; 
+\f2\b0 \
+Si codifichi un programma che costruisca correttamente i quattro vettori di puntatori. Il programma deve dapprima stampare tutti i dati dei maialini, nell'ordine in cui si trovano nell'allevamento, poi ordinare i puntatori nei vari vettori, e visualizzare i maialini secondo i diversi ordinamenti. Si utilizzi (anche) la funzione   
+\f1\b int confronta( Data d1, Data d2 ) 
+\f2\b0 che restituisce 0 se le due date sono uguali, 1 se in ordine cronologico crescente, -1 se in ordine inverso.\
+\pard\pardeftab720\ri-1980\sa60\partightenfactor0
+\cf0 Nel file Lab5_mat.c trovate delle strutture dati gi\'e0 inizializzate.\
+}
