@@ -34,7 +34,7 @@ void swap(MaialinoPunt * pp1, MaialinoPunt * pp2){
     *pp2 = temp;
 }
 
-int main(int argc, const char * argv[]) {
+int main() {
     
     Allevamento all = { 7,  "Porky Pig", {12,7,1936}, 33.50, 85 ,
         "Miss Piggy", {17,12,1974}, 23.95, 170 ,
