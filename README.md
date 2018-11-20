@@ -12,3 +12,5 @@ https://goo.gl/forms/lh1MvyyVsCL7I41k1
 
 Feedback lab 5:
 https://goo.gl/forms/oEbnSepDmSfgQUbh1
+Feedback lab 6:
+https://goo.gl/forms/VuUYrkIZMAaIMtLv2
