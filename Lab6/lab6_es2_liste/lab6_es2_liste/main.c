@@ -47,8 +47,8 @@ int main() {
         // allochiamo in OGNI caso..
         temp = (ListaDiElem)malloc(sizeof(ElemLista));
         temp->info = n;
-        temp->prox = NULL;  // azzeriamo.. cosi vale anche x ultimo inserimemnto, olteew xche x primo
-        
+        temp->prox = NULL;  // azzeriamo.. cosi vale anche x ultimo inserimemnto, oltre che x primo
+
         if (testa != NULL) {
             temp->prox = testa;
         }
@@ -58,13 +58,16 @@ int main() {
         
     }
     
-    // stampa:
+    // stampa somma:
+    int somma = 0;
+    
     temp = testa;   // NON perdiamo la testa...
     while (temp) {
-        printf("%d\n", temp->info);
+        //printf("sommo: %d\n", temp->info);
+        somma+=temp->info;
         temp=temp->prox;
     }
     
-    printf("done!\n");
+    printf("done! %d\n", somma);
     return 0;
 }
