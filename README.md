@@ -14,3 +14,6 @@ Feedback lab 5:
 https://goo.gl/forms/oEbnSepDmSfgQUbh1
 Feedback lab 6:
 https://goo.gl/forms/VuUYrkIZMAaIMtLv2
+
+Feedback lab 7:
+https://goo.gl/forms/KCg0cMHG9luBuqBx2
