@@ -17,3 +17,6 @@ https://goo.gl/forms/VuUYrkIZMAaIMtLv2
 
 Feedback lab 7:
 https://goo.gl/forms/KCg0cMHG9luBuqBx2
+
+Feedback lab 8:
+https://goo.gl/forms/9EurAmTd2NyugFYT2
