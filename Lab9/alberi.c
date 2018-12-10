@@ -17,8 +17,7 @@ void print(albero t);
 int f(albero t);
 
 int main(){
-  char inutile;	
-  int ris=0;  
+  int ris=0;
   albero alb = creaAlbero();
   print(alb);
   
@@ -26,8 +25,6 @@ int main(){
   ris=f(alb);
   
   printf("\n\n%d\n\n", ris);
-  fflush(stdin);
-  scanf("%c",inutile);	
   return 0;
 }
 
