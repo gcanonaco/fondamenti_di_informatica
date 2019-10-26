@@ -15,8 +15,11 @@ int main(){
                 if(j==N2)
                     flag=0;
             }
-            else
+            else{
+                if (j>0)
+                    i = i-j;
                 j=0;
+            }
     if(flag)
         printf("0");
     else

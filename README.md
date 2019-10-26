@@ -1,22 +1,14 @@
 # fondamenti_di_informatica
-Fondamenti di informatica (ingegneria matematica AA 2018/2019)
+Fondamenti di informatica (ingegneria matematica AA 2019/2020)
 
-Feedback Lab 2:
-https://goo.gl/forms/935sVlHuSyFpcPzo1
+Feedback lab 2:
+
+https://docs.google.com/forms/d/e/1FAIpQLSdU3ZjD6YNCBFjTUNw5LYnASr3jwP7XvHghDNfZURJ08w9YpA/viewform?usp=pp_url
 
 Feedback Lab 3:
-https://goo.gl/forms/sLlSPwN3Nf2N0hXH2
 
-Feedback Lab 4:
-https://goo.gl/forms/lh1MvyyVsCL7I41k1
+https://docs.google.com/forms/d/e/1FAIpQLSd192YL77yTm7KgbZm132uIhUME82mIk009QgQhZeejRelmQQ/viewform?usp=sf_link
 
-Feedback lab 5:
-https://goo.gl/forms/oEbnSepDmSfgQUbh1
-Feedback lab 6:
-https://goo.gl/forms/VuUYrkIZMAaIMtLv2
+Slides errori comuni:
 
-Feedback lab 7:
-https://goo.gl/forms/KCg0cMHG9luBuqBx2
-
-Feedback lab 8:
-https://goo.gl/forms/9EurAmTd2NyugFYT2
+http://home.deib.polimi.it/boracchi/teaching/InfoA/2019_Lab_Errori_Comuni.pdf
