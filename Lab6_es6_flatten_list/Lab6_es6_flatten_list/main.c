@@ -88,6 +88,9 @@ deepList buildMyInputList(void){
     // let's stop now and write algorithm ...
     // we should got 1 2 3 4 5 14 and 15.
     
+    //let for exercise to add remaining values...
+    
+    
     return L1;
     
 }
