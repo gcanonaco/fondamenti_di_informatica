@@ -17,22 +17,22 @@
 #define ARR_SIZE 5
 int main(int argc, const char * argv[]) {
 
-    // lascismo all' utente l' inseriemnto dei char, gia visto...
+    // lasciamo all' utente l' inserimento dei char, gia visto...
     // il vettore andrebbe dichiarato come:
     // char vett[ARR_SIZE];
     
-    // pre-carichiamo il vettore per svere casi noti:
+    // pre-carichiamo il vettore per avere casi noti:
     char vett[ARR_SIZE] = {'a', 'b', 'c', 'm', 'z'};
 
-    // riprovre utilizzando invece (il prg deve stamapre "NON ORDINATI": (va commentata la riga prec)
+    // riprovare utilizzando invece (il prg deve stamapre "NON ORDINATI": (va commentata la riga prec)
     //char vett[ARR_SIZE] = {'k', 'b', 'c', 'm', 'z'};
 
 
     int i;
     int ordered_till_now = 1; // flag che mettermeo a false se salta ordine
 
-    // faccimao un "giro" in meno,
-    // altrmienti sforiamo arrray.
+    // facciamo un "giro" in meno,
+    // altrimenti sforiamo arrray.
     // il for termina anche se salta ordine (inutile ciclare..)
     for (i=0; i< (ARR_SIZE-1) && ordered_till_now; i++) {
         if (vett[i+1]<=vett[i]){

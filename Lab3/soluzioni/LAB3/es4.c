@@ -8,19 +8,7 @@
 #include <stdio.h>
 
 /*
- testo
- Laboratorio Informatica A
- Incontro 3
-
- Problema 1
- Scrivere un programma che riceva in ingresso dall'utente un vettore di 5 caratteri tutti minuscoli. Il programma dica all'utente se le lettere contenute nel vettore sono in ordine alfabetico.
-
- Problema 2
- Scrivere un programma che chiede due sequenze di caratteri all’utente, e conta quante volte nella prima stringa è contenuta interamente la seconda.
-
- Problema 3
- Scrivere un programma che costruisce un array A di 50 interi e un B di 5 interi e stampa 1 se esiste in A una sequenza di 5 elementi che sono esattamente gli elementi di B anche in un ordine differente.
-
+ 
  Problema 4
  Definiamo il grado minimo g e il grado massimo G di una parola P rispettivamente come il minimo e il massimo numero di occorrenze delle lettere di P in P.  Ad esempio:
  POLENTA    g=1, G=1  ( tutte le lettere della parola compaiono in essa una e una sola volta )
@@ -28,17 +16,55 @@
  MAMMA       g=2, G=3  ( A compare due volte, M compare tre volte )
  G e g valgono convenzionalmente 0 per la parola vuota (cioè per una parola priva di caratteri).
  Si scriva un programma C che legge una stringa di lunghezza generica che rappresenta P, calcola G e g, e li stampa.
-
- Problema 5
- Due parole p e q si definiscono Hertzianamente compatibili se entrambe sono leggibili anche “oscillando” e leggendo alternativamente i caratteri dell’una e dell’altra. La figura mostra tigre con fiera e fiera con fresa. In figura parole uguali sono tracciate da linee di ugual stile.
- Si noti anche che la relazione sussiste in due modi (diretto o inverso). In figura: fiera e tigre si leggono iniziando dalla stessa lettera (modo diretto), per fiera e fresa occorre iniziare dall’iniziale dell’ “altra” parola nella coppia (modo inverso). Se la relazione fosse definita solo in modo diretto o solo in modo inverso varrebbe anche la proprietà transitiva (esempio: aria, prua, erba, orma sono tutte direttamente compatibili tra loro), ma consideriamo due parole compatibili indipendentemente dal modo in cui la proprietà si manifesta. Si scriva un programma che verifica la compatibilità Hertziana di due stringhe.
-  
-
-
+ 
+ 
  */
 
+#define STRING_SIZE 128
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    // lasciamo all' utente l' inserimento della due stringa.
+    
+    // pre-carichiamo il vettore per avere casi noti:
+    char P[STRING_SIZE]    = "POLENTA";
+    // poi scommentare uno per volta le 2 righe seguenti per provare.. se non si fa uso di scanf...
+    //char P[STRING_SIZE]    = "ORGOGLIO";
+    //char P[STRING_SIZE]    = "MAMMA";
+    
+    unsigned int g=0;
+    unsigned int G=0;
+    // g e G sono un simili a un min ed un Max..
+    
+    //calcoliamo subito la lunghezza effettiva della stringa:
+    int len;
+    for (len=0; P[len] != '\0'; len++) {
+        // empty loop, aspettiamo '\0'
+    }
+    
+    int i,k, cont;
+    
+    for (i=0; i<len; i++) {
+        cont = 0;
+        for (k=i; k<len;k++) {
+            if (P[i] == P[k])
+                cont++;
+        }
+        //debug:
+        printf("%d\n", cont);
+        
+        if (g == 0) // primo giro..
+            g = cont;
+        
+        // g e G sono molti simili a un min ed un Max..
+        if (cont>G){
+            //passimo g in G:
+            g = G;
+            // aggiorniamo G (come se fosse il max..)
+            G = cont;
+        }
+    }
+    
+    printf("g=%d;  G=%d\n", g, G);
     return 0;
 }
