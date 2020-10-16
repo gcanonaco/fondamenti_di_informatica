@@ -4,15 +4,12 @@
 //
 //  Created by ing.conti on 13/10/20.
 //
-
 #include <stdio.h>
-
 /*
 
  Problema 1
  Scrivere un programma che riceva in ingresso dall'utente un vettore di 5 caratteri tutti minuscoli. Il programma dica all'utente se le lettere contenute nel vettore sono in ordine alfabetico.
  */
-
 
 #define ARR_SIZE 5
 int main(int argc, const char * argv[]) {
@@ -24,7 +21,7 @@ int main(int argc, const char * argv[]) {
     // pre-carichiamo il vettore per avere casi noti:
     char vett[ARR_SIZE] = {'a', 'b', 'c', 'm', 'z'};
 
-    // riprovare utilizzando invece (il prg deve stamapre "NON ORDINATI": (va commentata la riga prec)
+    // riprovare utilizzando invece (il prg deve stampare "NON ORDINATI": (va commentata la riga precedente)
     //char vett[ARR_SIZE] = {'k', 'b', 'c', 'm', 'z'};
 
 
