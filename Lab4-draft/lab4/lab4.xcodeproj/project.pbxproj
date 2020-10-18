@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CEDBAC54253B3FE000CC2481 /* es5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es5.c; sourceTree = "<group>"; };
+		CEDBAC59253C122500CC2481 /* es2_warm_up.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es2_warm_up.c; sourceTree = "<group>"; };
 		CEF3D0F6253B25E9001C1644 /* lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab4; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3D0F9253B25E9001C1644 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		CEF3D101253B2608001C1644 /* es1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es1.c; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 			children = (
 				CEF3D0F9253B25E9001C1644 /* main.c */,
 				CEF3D101253B2608001C1644 /* es1.c */,
+				CEDBAC59253C122500CC2481 /* es2_warm_up.c */,
 				CEF3D103253B2B58001C1644 /* es2.c */,
 				CEF3D106253B34A7001C1644 /* es3.c */,
 				CEF3D10A253B3B9D001C1644 /* es4.c */,

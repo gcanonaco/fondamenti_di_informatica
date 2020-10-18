@@ -2,7 +2,7 @@
 //  es1.c
 //  lab4
 //
-//  Created by ing.conti on 17/10/20.
+//  Created by ing.conti on 1718th oct, 2020
 /*
 Problema 1
 Scrivere un programma che richieda all'utente di riempire una matrice 3 x 3 di interi, la stampi, sostituisca nella matrice ogni numero pari con la sua metà e, infine, stampi la matrice così modificata.
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     
-    printf("\n sosituisco..\n");
+    printf("\n sostituisco..\n");
     for (r=0; r<DIM; r++) {
         for (c=0; c<DIM; c++) {
             if ( matr[r][c] % 2 == 0 )

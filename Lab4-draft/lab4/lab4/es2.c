@@ -2,7 +2,7 @@
 //  es2.c
 //  lab4
 //
-//  Created by ing.conti on 17/10/20.
+//  Created by ing.conti on 1718th oct, 2020
 //
 
 /*
@@ -29,16 +29,16 @@ int main(int argc, const char * argv[]) {
      7  4  9
      */
     
-    int * pnt_inzio = &matr[0][0];
-    int * pnt_fine = pnt_inzio + DIM * DIM;
+    int * pnt_inizio = &matr[0][0];
+    int * pnt_fine = pnt_inizio + DIM * DIM;
     int * pnt;
 
     // per motivi didattici e per vedere riga e colonna, ricreiamo qui le v.
     // con un po' di "Pointer arithmetic"
     int offset, r, c;
     
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         c = offset % DIM;
         r = offset / DIM;
         printf("\ndammi elem  %d %d:", r, c);
@@ -46,8 +46,8 @@ int main(int argc, const char * argv[]) {
     }
 
     printf("\n 1' stampa:\n");
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         c = offset % DIM;
         r = offset / DIM;
         if (c == 0)
@@ -55,15 +55,15 @@ int main(int argc, const char * argv[]) {
         printf("%2d ", *pnt);// 2%d == 2 cifre decimale
     }
 
-    printf("\n sosituisco..\n");
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
+    printf("\n sostituisco..\n");
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
         if (*pnt % 2 == 0)
             *pnt /= 2;
     }
 
     printf("\n 2' stampa:\n");
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         c = offset % DIM;
         r = offset / DIM;
         if (c == 0)

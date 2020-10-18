@@ -2,7 +2,7 @@
 //  es4.c
 //  lab4
 //
-//  Created by ing.conti on 17/10/20.
+//  Created by ing.conti on 1718th oct, 2020
 //
 #include <stdio.h>
 #define N 2

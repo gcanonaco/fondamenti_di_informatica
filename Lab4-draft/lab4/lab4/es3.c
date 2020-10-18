@@ -1,6 +1,6 @@
 //  es3.c
 //  lab4
-//  Created by ing.conti on 17/10/20.
+//  Created by ing.conti on 1718th oct, 2020
 
 #include <stdio.h>
 /*
@@ -15,19 +15,19 @@ int main(int argc, const char * argv[]) {
     int matr[DIM][DIM];
 
     // parte inziale simile ad ed 2.. usiamo pointer, si puo' fare ANCHE con indici..
-    int * pnt_inzio = &matr[0][0];
-    int * pnt_fine = pnt_inzio + DIM * DIM;
+    int * pnt_inizio = &matr[0][0];
+    int * pnt_fine = pnt_inizio + DIM * DIM;
     int * pnt;
 
     int offset, r, c;
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         *pnt = offset+1; // caricheremo numeri da 1 a 9
     }
 
     printf("\n 1' stampa:\n");
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         c = offset % DIM;
         r = offset / DIM;
         if (c == 0)
@@ -45,8 +45,8 @@ int main(int argc, const char * argv[]) {
         }
         
     printf("\n 2' stampa:\n");
-    for (pnt = pnt_inzio; pnt < pnt_fine; pnt++) {
-        offset = pnt - pnt_inzio;
+    for (pnt = pnt_inizio; pnt < pnt_fine; pnt++) {
+        offset = pnt - pnt_inizio;
         c = offset % DIM;
         r = offset / DIM;
         if (c == 0)
