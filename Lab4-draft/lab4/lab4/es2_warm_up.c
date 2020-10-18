@@ -8,7 +8,7 @@
 /*
  Problema 2 intro ai puntatori
  Scrivere un programma che richieda all'utente di riempire una stringa S1 di caratteri,
- cerchi al suo intero i caratteri numerici e li copi in una stringa S2 e stampi s2.
+ cerchi al suo intero i caratteri numerici e li copi in una stringa S2 e stampi S2.
  NB: va scritto usando puntatori ed aritmetica die puntatori (Pointer arithmetic)
  */
 
