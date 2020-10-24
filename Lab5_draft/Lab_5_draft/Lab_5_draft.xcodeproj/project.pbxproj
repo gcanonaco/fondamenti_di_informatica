@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		CE43D41525431CDA0046F072 /* Lab_5_draft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab_5_draft; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE43D41825431CDA0046F072 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CE43D42025431CF10046F072 /* es1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es1.c; sourceTree = "<group>"; };
+		CE43D42225431E140046F072 /* es2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es2.c; sourceTree = "<group>"; };
+		CE43D42425431F000046F072 /* es3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es3.c; sourceTree = "<group>"; };
+		CE43D42625431FCD0046F072 /* es4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es4.c; sourceTree = "<group>"; };
+		CE43D428254321D30046F072 /* es5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = es5.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				CE43D41825431CDA0046F072 /* main.c */,
+				CE43D42025431CF10046F072 /* es1.c */,
+				CE43D42225431E140046F072 /* es2.c */,
+				CE43D42425431F000046F072 /* es3.c */,
+				CE43D42625431FCD0046F072 /* es4.c */,
+				CE43D428254321D30046F072 /* es5.c */,
 			);
 			path = Lab_5_draft;
 			sourceTree = "<group>";
